@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expressinho | Home</title>
+  <link rel="stylesheet" href="tailwind.css">
+  <style>
+    body{
+      background-image: url(img/mapa.png);
+    }
+  </style>
+</head>
+<body class="h-screen bg-indigo-50">
+  <div class="relative h-full flex flex-col justify-between items-center">
+    <header class="flex justify-between items-center pt-8 px-8">
+      <div><img src="img/logo-roxo-1.svg" alt="Logo Expressinho Compras" class="h-12"></div>
+      <div><img src="img/home.svg" alt="Logo Home" class="pl-28"></div>
+    </header>
+    <main>
+      <!--SECTION 1-->
+      <section class="flex flex-col justify-center">
+        <div class="absolute top-24 w-28 py-2 self-center mb-72 text-2xl text-center text-white bg-gray-800 rounded-full "><span class="text-purple-600">R$</span> 0,00</div>
+        <div class="absolute bottom-24 self-center"><button type="button" class="py-2 px-16 text-white text-xl bg-purple-600 rounded-full uppercase"><a href="#">Iniciar</a></button></div>
+      </section>
+    </main>
+    <footer class="w-full bg-indigo-400 h-20 flex flex-col justify-around">
+      <span class="h-2 w-28 bg-indigo-50 rounded-lg self-center"></span>
+      <section class="flex justify-around items-center">
+        <img src="img/check-home.png" alt="Logo Check">
+        <p class="text-xl font-bold">Você está offline</p>
+        <img src="img/slice-cube.svg" alt="Logo Cubo">
+      </section>
+    </footer>
+  </div>
+</body>
+</html>

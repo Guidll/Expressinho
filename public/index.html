@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tailwind.css" />
+    <title>Expressinho Compras</title>
+  </head>
+  <body class="h-screen bg-indigo-50 px-8">
+    <div class="h-full flex flex-col gap-8 justify-around">
+      <header class="mt-4 flex justify-between items-center">
+        <div><img src="img/logo-roxo-1.svg" alt="Logo Expressinho Compras" class="text"></div>
+        <h1 class="text-2xl font-bold text-right leading-none"><span class="text-purple-600">Expressinho </span>Compras</h1>
+      </header>
+      <main>
+        <!--SECTION 1-->
+        <section class="flex flex-col gap-4">
+          <div>
+            <h2 class="text-xl font-bold text-center">Bem-vindo(a)!</h2>
+            <p class="text-sm text-center">Este aplicativo é exclusivo para os nossos Motoristas.</p>
+          </div>
+          <button class="w-full px-4 py-2 mt-8 bg-blue-500 shadow-lg"><a href="login.html" rel="next" class="text-xl text-center font-bold text-white">Entrar</a>
+          </button>
+          <a href="#" rel="next" class="text-sm font-bold self-end">Esqueceu a senha?</a>
+        </section>
+        <!--SECTION 2-->
+        <section class="mt-8 flex flex-col gap-4 justify-evenly">
+          <div class="flex gap-4 items-center justify-center">
+            <span class="bg-black h-px w-8"></span>
+            <h2 class="text-md">Login com o Google</h2>
+            <span class="bg-black h-px w-8"></span>
+          </div>
+          <button class="flex gap-8 w-full px-4 py-2 mt-2 bg-blue-500 shadow-lg items-center"><img src="img/google.svg" alt="Logo Google" class="h-8"><a href="login.html" rel="next" class="text-lg text-center font-bold text-white">Entrar com Google</a>
+          </button>
+          <span><hr></span>
+          <p class="text-lg text-center">Não tem uma conta? <a href="#" rel="next" class="text-sm font-bold">Inscreva-se!</a></p>
+        </section>
+      </main>
+      <footer class="flex justify-end">
+        <div class=""><img src="img/logo-roxo-1.svg" alt="Logo Expressinho Compras" class="h-12"></div>
+      </footer>
+    </div>
+  </body>
+</html>
